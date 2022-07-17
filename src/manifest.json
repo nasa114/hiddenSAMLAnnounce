@@ -1,0 +1,15 @@
+{
+    "name": "Hidden GitHub SAML Announce",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "This Extension is removed SAML Authnication Annouce of GitHub.com",
+    "content_scripts": [{
+        "matches": [
+            "https://www.github.com/*",
+            "https://github.com/*"
+        ],
+        "js": [
+            "content.js"
+        ]
+    }]
+}
